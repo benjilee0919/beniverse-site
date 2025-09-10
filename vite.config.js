@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/beniverse-site/',
+  base: '/',   // 커스텀 도메인(루트)일 땐 '/' 사용
 })
